@@ -58,7 +58,7 @@ coverage/
 .nyc_output/
 
 # Deployment and utility scripts
-update-repo.js
+update-repo.cjs
 deploy-*.js
 
 # Package manager lock files (optional - uncomment if you want to ignore)
