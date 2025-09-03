@@ -1,2 +1,0 @@
-# SHRB
-Shrub Fund Metadata

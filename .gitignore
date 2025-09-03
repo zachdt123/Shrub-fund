@@ -1,0 +1,62 @@
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Build artifacts
+build/
+dist/
+*.tsbuildinfo
+
+# Anchor
+.anchor/
+
+# Solana
+wallet-keypair.json
+id.json
+
+# Temporary files
+*.tmp
+*.temp
+
+# Lambda deployments
+lambda-deployments/
+lambda-nav-updater/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Package manager lock files (optional - uncomment if you want to ignore)
+# package-lock.json
+# yarn.lock

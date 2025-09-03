@@ -1,0 +1,21 @@
+[features]
+resolution = true
+skip-lint = false
+seeds = true
+
+[programs.localnet]
+shrub_fund = "GYe1hhxHhojNy5LfTddD79BdHCnsYC2dsD8KMrKn1se6"
+
+[programs.mainnet]
+shrub_fund = "GYe1hhxHhojNy5LfTddD79BdHCnsYC2dsD8KMrKn1se6"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "mainnet"
+wallet = "~/.config/solana/id.json"
+rpc = "https://mainnet.helius-rpc.com/?api-key=74cef72f-0393-4d7d-a73e-e538a0a3814e"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
