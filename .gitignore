@@ -57,6 +57,10 @@ lambda-nav-updater/
 coverage/
 .nyc_output/
 
+# Deployment and utility scripts
+update-repo.js
+deploy-*.js
+
 # Package manager lock files (optional - uncomment if you want to ignore)
 # package-lock.json
 # yarn.lock
