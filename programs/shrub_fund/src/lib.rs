@@ -8,7 +8,7 @@ use anchor_spl::{
 
 declare_id!("GYe1hhxHhojNy5LfTddD79BdHCnsYC2dsD8KMrKn1se6");
 
-const GARDENER_PUBKEY: Pubkey = pubkey!("HBPb3Gvidfji29awKFb24wTgNJqvv75LUwPxgojwZgVU");
+const GARDENER_PUBKEY: Pubkey = pubkey!("5yG2kXTKXQFX9GsvsvNBNjFrLz9smuq8yUJRZgk3ZWu8");
 const TRADING_WALLET: Pubkey = pubkey!("9Ufh1tSTYzSjwMTAczsPoRhtTKqwUvoVywGqPjDd9cP5");
 const USDC_MINT: Pubkey = pubkey!("EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v");
 
